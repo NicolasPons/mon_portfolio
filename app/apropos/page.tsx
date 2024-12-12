@@ -1,6 +1,8 @@
 import React from "react";
 import { Button } from "@/components/ui/button";
 import { FileDownIcon } from "lucide-react";
+import Socials from "@/components/Socials";
+
 
 export default function Apropos(){
     return (
@@ -18,10 +20,13 @@ export default function Apropos(){
                             <Button 
                             variant="outline" 
                             size="lg" 
-                            className="uppercase fle items-center gap-2">
+                            className="uppercase flex items-center gap-2 py-6 bg-secondary rounded-full border-accent hover:bg-accent text-accent">
                                 <span>Télécharger mon CV</span>
                                 <FileDownIcon className="text-xl"/>
                             </Button>
+                            <div className="mb-8 xl:mb-0">
+                                <Socials/>
+                            </div>
                         </div>
                     </div>
                     {/* Photo */}
