@@ -9,7 +9,7 @@ const Links = [
     },
     {
         name : "A propos de moi",
-        path : "/apropos"
+        path : "/about"
     },
     {
         name : "Mes expériences",
@@ -17,7 +17,7 @@ const Links = [
     },
     {
         name : "Le BTS SIO",
-        path : "/btssio"
+        path : "/bts-sio"
     },
     {
         name : "Mes projets",
@@ -25,7 +25,7 @@ const Links = [
     },
     {
         name : "Veille technologique",
-        path : "/veilletechnologique"
+        path : "/veille-technologique"
     },
     {
         name : "Avenir",
