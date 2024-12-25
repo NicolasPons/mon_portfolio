@@ -20,3 +20,9 @@
   }
 }
 
+@layer utilities {
+  .text-outline {
+    -webkit-text-stroke: 2px white; /* Bordure de 2px noire */
+  }
+}
+
