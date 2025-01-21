@@ -30,7 +30,7 @@ const projects = [
         name: "C#",
       },
       {
-        name: "WPF",
+        name: "WinForms",
       },
       {
         name: "MySQL",
@@ -176,9 +176,9 @@ export default function Projets() {
                     </SwiperSlide>
                 })}
                 <ProjectsSliderBtn containerStyles="flex gap-2 absolute right-0 bottom-[calc(50%_-22px)] 
-                xl:bottom-0 w-full justify-between xl:w-max xl:justify-none" btnStyles="bg-accent hover:bg-accent-hover 
-                text-primary text-[22px] w-[44px] h-[44px] flex justify-center items-center transition-all "/>
-
+                xl:bottom-0 w-full justify-between xl:w-max xl:justify-none z-50" btnStyles="
+                bg-accent hover:bg-accent-hover 
+                text-primary text-[22px] w-[44px] h-[44px] flex justify-center items-center transition-all" iconsStyles=""/>
             </Swiper>
           </div>
         </div>
