@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export default function Photo(){
     return (
-        <div className=" w-full h-full relative">
+        <div className=" w-full h-full">
             <motion.div initial={{opacity:0}} animate={{opacity :1, transition:{delai:2, duration:1, ease: 'easeIn'} }}>
                 {/* Image  */}
                 <motion.div

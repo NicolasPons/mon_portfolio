@@ -7,7 +7,7 @@ import Photo from "@/components/Photo";
 
 export default function Apropos(){
     return (
-        <section className="h-full">
+        <section className="h-full mt-20">
             <div className="container mx-auto h-full">
                 <div className="flex flex-col xl:flex-row items-center justify-between xl:pt-8 xl:pb-24">
                     {/* Texte */}
@@ -21,7 +21,7 @@ export default function Apropos(){
                             <Button 
                             variant="outline" 
                             size="lg" 
-                            className="uppercase flex items-center gap-2 py-6 bg-secondary rounded-full border-accent hover:bg-accent text-accent">
+                            className="uppercase flex items-center gap-2 py-6 bg-primary rounded-full border-accent hover:bg-accent text-accent">
                                 <span>Télécharger mon CV</span>
                                 <FileDownIcon className="text-xl"/>
                             </Button>
@@ -33,7 +33,7 @@ export default function Apropos(){
                     </div>
 
                     {/* Photo */}
-                    <div className="order-1 xl:order-none mb-8 xl:mb-0 ">
+                    <div className="order-1 xl:order-1 mb-8 xl:mb-0">
                         <Photo/>
                     </div>
                 </div>

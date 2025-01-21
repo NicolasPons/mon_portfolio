@@ -15,6 +15,7 @@ export default {
 		},
   		colors: {
  			primary : '#1c1c22',
+			secondary: '#23232B',
 			accent: {
 				DEFAULT: '#00ff99',
 				hover: '#00e187'
