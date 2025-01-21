@@ -5,7 +5,6 @@ import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 
 import { Phone, Mail, MapPin } from "lucide-react";
-import { motion } from "framer-motion";
 
 const info = [
   {
@@ -27,14 +26,7 @@ const info = [
 
 export default function Contact() {
   return (
-    <motion.section
-      initial={{ opacity: 0 }}
-      animate={{
-        opacity: 1,
-        transition: { delay: 0.4, duration: 0.4, ease: "easeIn" },
-      }}
-      className="py-6"
-    >
+
       <div className="container mx-auto">
         <div className="flex flex-col xl:flex-row gap-[30px] ">
           <div className="xl:w-[54%] order-2 xl:order-none">
@@ -79,6 +71,5 @@ export default function Contact() {
           </div>
         </div>
       </div>
-    </motion.section>
   );
 }

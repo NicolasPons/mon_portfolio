@@ -32,7 +32,6 @@ html {
 
 section {
   padding-top: 100px; /* Éviter le chevauchement avec la nav */
-  scroll-margin-top: 100px; /* Corrige le défilement ancré */
   min-height: 100vh; /* Facultatif : pour que chaque section occupe l'écran */
 }
 

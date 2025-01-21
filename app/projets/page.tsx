@@ -37,7 +37,7 @@ const projects = [
       },
     ],
     image: "/assets/projets/GSB_APP.png",
-    github: "",
+    github: "https://github.com/NicolasPons/AP1_GSB",
     live: "",
   },
   {
@@ -64,7 +64,7 @@ const projects = [
       },
     ],
     image: "/assets/projets/GSB_APP.png",
-    github: "",
+    github: "https://github.com/NicolasPons/AP2-MedManager",
     live: "",
   },
   {
@@ -119,11 +119,13 @@ export default function Projets() {
                 {project.num}
               </div>
               {/* Projet Category */}
-              <h2 className="text-[42px] font-bold leading-none text-white group-hover:text-accent transition-all duration-500 capitalize">
-                {" "}
-                {project.category}
+              <h2 className="text-[36px] font-bold leading-none text-white group-hover:text-accent transition-all duration-500 capitalize mb-10000">
+                {project.title}
               </h2>
-              <p className="text-white/60">{project.description}</p>
+              <h3 className="text-[16px] mt-0">
+                {project.category}
+              </h3>
+              <p className="text-white/60 text-[14px]">{project.description}</p>
               <ul className=" flex gap-4">
                 {project.stack.map((item, index) => {
                   return (
