@@ -3,8 +3,8 @@ import { Github , Linkedin  } from 'lucide-react'
 
 
 const socials = [
-    {icon : <Github/>, path : ""},
-    {icon : <Linkedin/>, path : ""}
+    {icon : <Github/>, path : "https://github.com/NicolasPons"},
+    {icon : <Linkedin/>, path : "https://www.linkedin.com/in/nicolas-pons-16715a276/"}
 ]
 
 export default function Socials({containerStyles, iconStyles}) {
