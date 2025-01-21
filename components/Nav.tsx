@@ -5,6 +5,7 @@ import { useState, useEffect } from "react"
 const Links = [
     { name: "A propos de moi", path: "#about" },
     { name: "Mes expériences", path: "#experiences" },
+    { name: "Mes compétences", path: "#competences"},
     { name: "Mes projets", path: "#projets" },
     { name: "Le BTS SIO", path: "#bts-sio" },
     { name: "Veille technologique", path: "#veille-technologique" },

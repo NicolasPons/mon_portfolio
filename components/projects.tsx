@@ -113,7 +113,7 @@ export default function Projets() {
       <div className="container mx-auto">
         <div className="flex flex-col xl:flex-row xl:gap-[30px]">
           <div className="w-full xl:w-[50%] xl:h-[460px] flex flex-col xl:justify-between order-2 xl:order-none">
-            <div className="flex flex-col gap-[30px]">
+            <div className="flex flex-col gap-[10px]">
               {/* Outline Num  */}
               <div className="text-8xl leading-none font-extrabold text-transparent text-outline">
                 {project.num}
@@ -122,11 +122,11 @@ export default function Projets() {
               <h2 className="text-[36px] font-bold leading-none text-white group-hover:text-accent transition-all duration-500 capitalize mb-10000">
                 {project.title}
               </h2>
-              <h3 className="text-[16px] mt-0">
+              <h3 className="text-[16px] mb-5">
                 {project.category}
               </h3>
-              <p className="text-white/60 text-[14px]">{project.description}</p>
-              <ul className=" flex gap-4">
+              <p className="text-white/60 text-[14px] mb-5">{project.description}</p>
+              <ul className=" flex gap-4 mb-5">
                 {project.stack.map((item, index) => {
                   return (
                     <li key={index} className="text-xl text-accent">
@@ -136,7 +136,7 @@ export default function Projets() {
                   );
                 })}
               </ul>
-              <div className="border border-white/20 "></div>
+              <div className="border border-white/20 mb-5"></div>
               <div className="flex items-center gap-4">
                 <Link href={project.live}>
                   <TooltipProvider delayDuration={100}>
