@@ -6,23 +6,6 @@ import { Textarea } from "@/components/ui/textarea";
 
 import { Phone, Mail, MapPin } from "lucide-react";
 
-const info = [
-  {
-    icon: <Phone />,
-    title: "Téléphone",
-    description: "+336 18 84 58 18",
-  },
-  {
-    icon: <Mail />,
-    title: "E-mail",
-    description: "ponsnicolas7@gmail.com   ",
-  },
-  {
-    icon: <MapPin />,
-    title: "Adresse",
-    description: "7 rue du colonel Arnaud Beltrame, 69008 Lyon",
-  },
-];
 
 export default function Contact() {
   return (
@@ -35,7 +18,7 @@ export default function Contact() {
                 {" "}
                 Let&apos;s work together
               </h3>
-              <div className="grid grid md:grid-cols-2 gap-6">
+              <div className="grid md:grid-cols-2 gap-6">
                 <Input type="firstname" placeholder="Prénom" />
                 <Input type="name" placeholder="Nom" />
                 <Input type="email" placeholder="Adresse e-mail" />
@@ -43,25 +26,10 @@ export default function Contact() {
               </div>
               <Textarea className="h-[200px]"
               placeholder="Type your message here"/>
-              <Button className="max-w-40 "> Envoyer votre message</Button>
+              <Button className="uppercase flex max-w-[225px] py-6 bg-primary rounded-full border-[1px] border-accent hover:bg-accent text-accent hover:text-primary"> Envoyer votre message</Button>
             </form>
           </div>
-          <div className="flex-1 flex items-center xl:justify-end order-1 xl:order-none mb-8 xl:mb-0">
-            <ul className="flex flex-col gap-10">
-                {info.map((item, index) => {
-                    return <li key={index} className="flex items-center gap-6">
-                        <div className="w-[52px] h-[52px] xl:w-[72px] xl:h-[72px] bg-[#27272c] text-accent rounded-md flex items-center justify-center">
-                            <div>{item.icon}</div>
-                        </div>
-                        <div className="flex-1">
-                            <p className="text-white/60">{item.title}</p>
-                            <h3 className="text-xl">{item.description}</h3>
-                        </div>
-
-                    </li>
-                })}
-            </ul>
-          </div>
+          
         </div>
       </div>
   );
