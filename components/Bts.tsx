@@ -8,9 +8,9 @@ export default function BtsSioSection() {
         
             <div className="max-w-4xl mx-auto">
                 {/* Titre */}
-                <h2 className="text-3xl font-bold text-center mb-8">
+                <h1 className="text-2xl xl:text-4xl font-bold text-center mb-8">
                     BTS SIO - Option SLAM
-                </h2>
+                </h1>
 
                 {/* Contenu principal */}
                 <p className="text-lg leading-relaxed mb-6">

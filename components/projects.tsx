@@ -112,6 +112,9 @@ export default function Projets() {
       className="min-h-[80vh] flex flex-col justify-center py-12 xl:px-0"
     >
       <div className="container mx-auto">
+      <h1 className="text-2xl md:text-4xl font-bold text-center mb-20 text-white ">
+        Mes projets
+      </h1>
         <div className="flex flex-col xl:flex-row xl:gap-[30px]">
           <div className="w-full xl:w-[50%] xl:h-[460px] flex flex-col xl:justify-between order-2 xl:order-none">
             <div className="flex flex-col gap-[10px]">

@@ -8,7 +8,7 @@ export default function Experience() {
       content: (
         <div>
           <p className="text-white text-xs md:text-sm font-normal mb-8">
-            Etudiant en BTS SIO et alternant à la Compagnine Nationale du Rhône. 
+            Etudiant en BTS SIO et alternant à la Compagnine Nationale du Rhône.
           </p>
         </div>
       ),
@@ -33,7 +33,7 @@ export default function Experience() {
       content: (
         <div>
           <p className="text-white dark:text-neutral-200 text-xs md:text-sm font-normal mb-4">
-            Obtention d&apos;un baccalauréat Economique et Sociale - Mention AB 
+            Obtention d&apos;un baccalauréat Economique et Sociale - Mention AB
           </p>
         </div>
       ),
@@ -41,6 +41,9 @@ export default function Experience() {
   ];
   return (
     <div className="w-full">
+      <h1 className="text-2xl md:text-4xl font-bold text-center mb-20 text-white ">
+        Mes expériences
+      </h1>
       <Timeline data={data} />
     </div>
   );
