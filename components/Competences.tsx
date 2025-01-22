@@ -4,7 +4,7 @@
 import { Card, CardHeader, CardContent } from './ui/card';
 import { Tabs, TabsList, TabsTrigger, TabsContent } from './ui/tabs'
 
-// export default function Competences() {
+export default function Competences() {
 //   const skills = [
 //     { name: "C#", logo: "/assets/logos/skills/csharp.png", category: "client-lourd" },
 //     { name: "ASP.NET", logo: "/assets/logos/skills/aspnet.png", category: "back-end" },
@@ -63,5 +63,4 @@ import { Tabs, TabsList, TabsTrigger, TabsContent } from './ui/tabs'
   </div>
   );
 }
-
 
