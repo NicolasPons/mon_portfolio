@@ -1,4 +1,3 @@
-import Image from "next/image";
 import React from "react";
 import { Timeline } from "@/components/ui/timeline";
 
@@ -34,7 +33,7 @@ export default function Experience() {
       content: (
         <div>
           <p className="text-white dark:text-neutral-200 text-xs md:text-sm font-normal mb-4">
-            Obtention d'un baccalauréat Economique et Sociale - Mention AB 
+            Obtention d&apos;un baccalauréat Economique et Sociale - Mention AB 
           </p>
         </div>
       ),
