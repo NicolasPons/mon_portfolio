@@ -4,8 +4,6 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 
-import { Phone, Mail, MapPin } from "lucide-react";
-
 
 export default function Contact() {
   return (
