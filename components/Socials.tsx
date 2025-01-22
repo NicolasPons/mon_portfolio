@@ -7,7 +7,7 @@ const socials = [
     {icon : <Linkedin/>, path : "https://www.linkedin.com/in/nicolas-pons-16715a276/"}
 ]
 
-export default function Socials({containerStyles, iconStyles}) {
+export default function Socials({containerStyles, iconStyles} : {containerStyles : string, iconStyles : string }) {
     return (
 
     <div className={containerStyles}>
