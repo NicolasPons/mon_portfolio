@@ -23,7 +23,7 @@ export default function Apropos() {
           {/* Texte */}
           <div className="text-center xl:text-left order-2 xl:order-none">
             <span className="text-xl"> Développeur Full-Stack </span>
-            <h1 className="h1 mb-6">
+            <h1 className="h1 mb-6 ">
             {/* <span className="text-accent"> Nicolas Pons</span>{" "} */}
             <TypewriterEffectSmooth words={words} />
             </h1>

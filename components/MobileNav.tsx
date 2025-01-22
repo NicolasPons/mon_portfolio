@@ -36,8 +36,7 @@ export default function MobileNav() {
                     }
                 }
             });
-            setActiveSection(currentSection);
-        };
+            setActiveSection(currentSection);        };
 
         window.addEventListener("scroll", handleScroll);
         handleScroll(); // Call once on mount to set initial state

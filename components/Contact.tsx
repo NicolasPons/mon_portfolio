@@ -35,13 +35,6 @@ export default function Contact() {
                 {" "}
                 Let&apos;s work together
               </h3>
-              <p className=" text-white">
-                {" "}
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Quaerat iste nesciunt ex sint quos incidunt voluptate numquam ad
-                commodi corrupti, consectetur, ipsam a optio dolores quibusdam!
-                Nemo amet quas alias.
-              </p>
               <div className="grid grid md:grid-cols-2 gap-6">
                 <Input type="firstname" placeholder="Prénom" />
                 <Input type="name" placeholder="Nom" />
