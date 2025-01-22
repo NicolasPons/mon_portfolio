@@ -3,7 +3,8 @@
 import { useSwiper } from "swiper/react"
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 
-export default function ProjectsSliderBtn({containerStyles, btnStyles, iconsStyles}) {
+export default function ProjectsSliderBtn({containerStyles ,  btnStyles, iconsStyles}
+    : {containerStyles: string, btnStyles: string, iconsStyles: string}) {
     const swiper = useSwiper();
     console.log("je suis dans le projectssliderbtn");
     console.log(swiper);
