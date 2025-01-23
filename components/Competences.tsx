@@ -13,7 +13,7 @@ export default function Competences() {
     },
     {
       name: "ASP.NET",
-      logo: "/assets/logos/aspnet.png",
+      logo: "/assets/logos/aspnetcore.svg",
       category: "back-end",
     },
     { name: "MySQL", logo: "/assets/logos/mysql.png", category: "sgbd" },
@@ -54,23 +54,23 @@ export default function Competences() {
     },
     {
       name: "HTML",
-      logo: "/assets/logos/html.png",
+      logo: "/assets/logos/html.svg",
       category: "front-end",
     },
     {
       name: "CSS",
-      logo: "/assets/logos/css.png",
+      logo: "/assets/logos/css.svg",
       category: "front-end",
     },
-    { name: "Git", logo: "/assets/logos/git.png", category: "outils" },
+    { name: "Git", logo: "/assets/logos/git.svg", category: "outils" },
     {
       name: "Github",
-      logo: "/assets/logos/github.png",
+      logo: "/assets/logos/github.svg",
       category: "outils",
     },
     {
       name: "Entity Framework",
-      logo: "/assets/logos/entityframework.png",
+      logo: "/assets/logos/efcore.png",
       category: "back-end",
     },
     {
@@ -85,12 +85,12 @@ export default function Competences() {
     },
     {
       name: "Visual Studio Code",
-      logo: "/assets/logos/visualstudiocode.png",
+      logo: "/assets/logos/vscode.webp",
       category: "outils",
     },
     {
-      name: "WinForm",
-      logo: "/assets/logos/winform.png",
+      name: "WinForms",
+      logo: "/assets/logos/winforms.png",
       category: "client-lourd",
     },
     {
@@ -123,11 +123,16 @@ export default function Competences() {
       logo: "/assets/logos/ubuntu.png",
       category: "outils",
     },
+    {
+      name: "NextJS",
+      logo: "/assets/logos/nextjs.svg",
+      category: "back-end",
+    },
   ];
 
   return (
     <div className="flex flex-col w-full pt-10 px-4 justify-center items-center">
-      <h2 className="text-white font-extrabold text-2xl text-center">
+      <h2 className="text-white font-extrabold text-base xl:text-2xl text-center">
         Mes compétences
       </h2>
 
@@ -144,127 +149,72 @@ export default function Competences() {
           </CardHeader>
           <CardContent className="text-white">
             <TabsContent value="client-lourd">
-              <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4">
-                {skills
-                  .filter((skill) => skill.category === "client-lourd")
-                  .map((skill, index) => (
-                    <div key={index} className="items-center justify-center w-full xl:max-w-44 mx-0 my-10">
-                      <div
-                        key={index}
-                        className="flex justify-center gap-2 p-4 rounded-lg h-full xl:max-h-24 w-full"
-                      >
-                        <Image
-                          src={skill.logo}
-                          width={50}
-                          height={50}
-                          alt={`${skill.name} logo`}
-                          className="object-contain"
-                        />
-                      </div>
-                      <div className="text-sm text-white text-center">{skill.name}</div>
-                    </div>
-                  ))}
-              </div>
+              <Competence id="client-lourd" />
             </TabsContent>
 
             <TabsContent value="front-end">
-              <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 gap-4">
-                {skills
-                  .filter((skill) => skill.category === "front-end")
-                  .map((skill, index) => (
-                    <div key={index} className="items-center justify-center">
-                    <div
-                      key={index}
-                      className="flex justify-center gap-2 p-4 rounded-lg h-full xl:max-h-24 "
-                    >
-                      <Image
-                        src={skill.logo}
-                        width={50}
-                        height={50}
-                        alt={`${skill.name} logo`}
-                        className="object-contain"
-                      />
-                    </div>
-                    <div className="text-sm text-accent text-center">{skill.name}</div>
-                  </div>
-                  ))}
-              </div>
+              <Competence id="front-end" />
             </TabsContent>
 
             <TabsContent value="back-end">
-              <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 gap-4">
-                {skills
-                  .filter((skill) => skill.category === "back-end")
-                  .map((skill, index) => (
-                    <div key={index} className="items-center justify-center">
-                    <div
-                      key={index}
-                      className="flex justify-center gap-2 p-4 rounded-lg h-full xl:max-h-24 "
-                    >
-                      <Image
-                        src={skill.logo}
-                        width={50}
-                        height={50}
-                        alt={`${skill.name} logo`}
-                        className="object-contain"
-                      />
-                    </div>
-                    <div className="text-sm text-accent text-center">{skill.name}</div>
-                  </div>
-                  ))}
-              </div>
+              <Competence id="back-end" />
             </TabsContent>
 
             <TabsContent value="sgbd">
-              <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 gap-4">
-                {skills
-                  .filter((skill) => skill.category === "sgbd")
-                  .map((skill, index) => (
-                    <div key={index} className="items-center justify-center">
-                    <div
-                      key={index}
-                      className="flex justify-center gap-2 p-4 rounded-lg h-full xl:max-h-24 "
-                    >
-                      <Image
-                        src={skill.logo}
-                        width={50}
-                        height={50}
-                        alt={`${skill.name} logo`}
-                        className="object-contain"
-                      />
-                    </div>
-                    <div className="text-sm text-accent text-center">{skill.name}</div>
-                  </div>
-                  ))}
-              </div>
+              <Competence id="sgbd" />
             </TabsContent>
 
             <TabsContent value="outils">
-              <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 gap-4 ml-0">
-                {skills
-                  .filter((skill) => skill.category === "outils")
-                  .map((skill, index) => (
-                    <div key={index} className="items-center justify-center">
-                    <div
-                      key={index}
-                      className="flex justify-center gap-2 p-4 rounded-lg h-full xl:max-h-24 "
-                    >
-                      <Image
-                        src={skill.logo}
-                        width={50}
-                        height={50}
-                        alt={`${skill.name} logo`}
-                        className="object-contain"
-                      />
-                    </div>
-                    <div className="text-sm text-accent text-center">{skill.name}</div>
-                  </div>
-                  ))}
-              </div>
+              <Competence id="outils" />
             </TabsContent>
           </CardContent>
         </Tabs>
       </Card>
     </div>
   );
+
+  function Competence({ id }: { id: string }) {
+    switch (id) {
+      case "client-lourd":
+        return <DivCompetence category={id} />;
+        break;
+      case "front-end":
+        return <DivCompetence category={id} />;
+        break;
+      case "back-end":
+        return <DivCompetence category={id} />;
+        break;
+      case "sgbd":
+        return <DivCompetence category={id} />;
+        break;
+      case "outils":
+        return <DivCompetence category={id} />;
+        break;
+    }
+  }
+
+  function DivCompetence({ category }: { category: string }) {
+    const filteredSkills = skills.filter(
+      (skill) => skill.category === category
+    );
+    return (
+      <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-5">
+        {filteredSkills.map((skill, index) => (
+          <div
+            key={index}
+            className="flex flex-col justify-center items-center rounded-lg "
+          >
+            <Image
+              src={skill.logo}
+              width={200}
+              height={200}
+              alt={`${skill.name} logo`}
+              className="object-contain w-20 h-20"
+            />
+            <p className="text-md text-white text-center mt-4">{skill.name}</p>
+          </div>
+        ))}
+      </div>
+    );
+  }
 }

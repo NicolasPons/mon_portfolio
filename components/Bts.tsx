@@ -24,7 +24,7 @@ export default function BtsSioSection() {
                 </p>
 
                 {/* Liste des ateliers */}
-                <div className="bg-primary p-6 rounded-md shadow-md">
+                <div className="bg-primary p-6 rounded-md">
                     <h3 className="text-2xl font-semibold mb-4 text-accent">
                         Mes ateliers de professionnalisation
                     </h3>
@@ -39,7 +39,7 @@ export default function BtsSioSection() {
                 {/* Lien vers le tableau de compétences */}
                 <div className="mt-8 flex justify-center">
                     <Link
-                        href="/assets/mon-tableau-de-competences.xlsx"
+                        href="/assets/tableau/tableau.xlsx"
                         target="_blank"
                         download
                         className=" uppercase flex items-center rounded-3xl gap-2 bg-primary border-accent border-[1px] hover:bg-accent-hover text-accent hover:text-primary font-medium py-2 px-4 transition-all"
