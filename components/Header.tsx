@@ -11,11 +11,11 @@ export default function Header() {
             Nicolas PONS <span className="text-accent">.</span>
           </h1>
         </Link>
-        <div className="hidden xl:flex items-center gap-8">
+        <div className="hidden md:hidden xl:flex items-center gap-8">
           <Nav />
         </div>
 
-        <div className="xl:hidden">
+        <div className=" xl:hidden">
             <MobileNav />
         </div>
       </div>

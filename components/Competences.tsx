@@ -132,12 +132,12 @@ export default function Competences() {
 
   return (
     <div className="flex flex-col w-full pt-10 px-4 justify-center items-center">
-      <h2 className="text-white font-extrabold text-base xl:text-2xl text-center">
+      <h2 className="text-white font-extrabold text-base md:text-xl xl:text-2xl text-center">
         Mes compétences
       </h2>
 
-      <Card className="my-6 bg-secondary max-w-3xl w-full xl:max-w-5xl xl:w-full">
-        <Tabs defaultValue="account" className="">
+      <Card className="my-6 bg-secondary max-w-3xl w-full xl:max-w-5xl xl:w-full md:mt-20 xl:mt-32">
+        <Tabs defaultValue="client-lourd" className="">
           <CardHeader className="pb-2">
             <TabsList className="bg-border flex-wrap h-full bg-primary rounded-xl">
               <TabsTrigger value="client-lourd">Logiciel</TabsTrigger>
@@ -202,7 +202,7 @@ export default function Competences() {
         {filteredSkills.map((skill, index) => (
           <div
             key={index}
-            className="flex flex-col justify-center items-center rounded-lg "
+            className="flex flex-col justify-center items-center rounded-lg mb-6"
           >
             <Image
               src={skill.logo}
