@@ -132,7 +132,7 @@ export default function Competences() {
 
   return (
     <div className="flex flex-col w-full pt-10 px-4 justify-center items-center">
-      <h2 className="text-white font-extrabold text-base md:text-xl xl:text-2xl text-center">
+      <h2 className="text-white font-extrabold text-base md:text-4xl text-center">
         Mes compétences
       </h2>
 

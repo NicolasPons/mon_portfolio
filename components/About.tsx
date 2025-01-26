@@ -1,6 +1,6 @@
 import React from "react";
 import { Button } from "@/components/ui/button";
-import { FileDownIcon } from "lucide-react";
+import { Download } from "lucide-react";
 import Socials from "@/components/Socials";
 import Photo from "@/components/Photo";
 import { TypewriterEffectSmooth } from "./ui/typewriter-effect";
@@ -43,7 +43,7 @@ export default function Apropos() {
                 <a href="assets/cv/cv.pdf" download>
                   Télécharger mon CV
                 </a>
-                <FileDownIcon className="text-xl" />
+                <Download className="text-xl" />
               </Button>
               <div className="mb-8 xl:mb-0">
                 <Socials

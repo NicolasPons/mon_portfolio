@@ -1,5 +1,6 @@
 "use client";
 import { Download } from "lucide-react";
+import { Button } from "./ui/button";
 
 export default function BtsSioSection() {
     return (
@@ -34,17 +35,17 @@ export default function BtsSioSection() {
             </div>
 
             {/* Lien vers le tableau de compétences */}
-            <div className="mt-8 flex justify-center">
-                <a
-                    href="/assets/tableau/tableau.xlsx"
-                    target="_blank"
-                    download
-                    className="uppercase flex items-center rounded-3xl gap-2 bg-primary border-accent border-[1px] hover:bg-accent-hover text-accent hover:text-primary font-medium py-2 px-4 transition-all"
-                >
-                    <Download className="w-5 h-5" />
-                    Télécharger mon tableau de compétences
+
+            <Button
+                variant="outline"
+                size="lg"
+                className="uppercase flex items-center gap-2 py-6 bg-primary rounded-full border-accent hover:bg-accent text-accent ml-12 w-80 xl:w-[400] xl:ml-6 text-xs xl:text-sm"
+              >
+                <a href="/assets/tableau/tableau.xlsx" download>
+                  Télécharger mon tableau de compétences
                 </a>
-            </div>
+                <Download className="w-6 h-6 sm:w-5 sm:h-5" />
+              </Button>
         </div>
     );
 };

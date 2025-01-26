@@ -25,7 +25,7 @@ const projects = [
     category: "Atelier de professionalisation",
     title: "GSB - Gestion de fiches de frais",
     description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero consectetur dolores, nostrum ut aliquam laboriosam!",
+      "Client lourd de gestion de notes de frais avec des rôles différenciés (utilisateur, comptable, administrateur), permettant la soumission et la validation des notes de frais et l'administration des utilisateurs.",
     stack: [
       {
         name: "C#",
@@ -46,7 +46,7 @@ const projects = [
     category: "Atelier de professionalisation",
     title: "GSB - Med manager",
     description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero consectetur dolores, nostrum ut aliquam laboriosam!",
+      "Client léger déstiné aux médecins, permettant de gérer les dossiers médicaux, de créer des ordonnances en tenant compte des incompatibilités entre allergies et médicaments.",
     stack: [
       {
         name: "ASP.NET Core (C#)",
@@ -64,31 +64,40 @@ const projects = [
         name: "Entity Framework ",
       },
     ],
-    image: "/assets/projets/GSB_APP.png",
+    image: "/assets/projets/MedManager_Dashboard.png",
     github: "https://github.com/NicolasPons/AP2-MedManager",
     live: "",
   },
   {
     num: "03",
-    category: "Atelier de professionalisation",
-    title: "GSB - Med manager",
+    category: "Projet en alternance",
+    title: "Macro VBA - 1",
     description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero consectetur dolores, nostrum ut aliquam laboriosam!",
+      "",
     stack: [
       {
-        name: "ASP.NET Core (C#)",
+        name: "VBA",
       },
       {
-        name: "HTML",
+        name: "Oracle",
+      },
+    ],
+    image: "/assets/projets/GSB_APP.png",
+    github: "",
+    live: "",
+  },
+  {
+    num: "04",
+    category: "Projet en alternance",
+    title: "Macro VBA - 2",
+    description:
+      "",
+    stack: [
+      {
+        name: "VBA",
       },
       {
-        name: "CSS",
-      },
-      {
-        name: "Bootstrap",
-      },
-      {
-        name: "Entity Framework ",
+        name: "Oracle",
       },
     ],
     image: "/assets/projets/GSB_APP.png",
@@ -174,9 +183,9 @@ export default function Projets() {
                 {projects.map((project, index) => {
                     return <SwiperSlide key={index} className="w-full">
                         <div className=" h-[460px] relative group flex justify-center items-center bg-pink-50/20">
-                            <div className="absolute top-0 bottom-0 w-full h-full bg-black/10 z-10"></div>
-                            <div className="relative w-full h-full">
-                                <Image src={project.image} fill className="object-cover" alt =""/>
+                            <div className="absolute w-full h-full bg-black/10"></div>
+                            <div className=" relative w-full h-full">
+                                <Image src={project.image} fill className="object-fill" alt =""/>
                             </div>
                         </div>
                     </SwiperSlide>
