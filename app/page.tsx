@@ -5,10 +5,12 @@ import Projets from "../components/Projects";
 import BTS from "../components/Bts";
 import Veille from "../components/Veille";
 import Competences from "@/components/Competences";
+import { DotBackgroundDemo } from "@/components/ui/test";
 
 export default function Home() {
   return (
     <main>
+      <section id="about" className="bg-primary"><DotBackgroundDemo /></section>
       <section id="about" className="bg-primary"><Apropos /></section>
       <section id="experiences" className="bg-secondary"><Experience /></section>
       <section id="competences" className="bg-primary"><Competences/></section>

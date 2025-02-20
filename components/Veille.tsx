@@ -1,7 +1,7 @@
 import React from "react";
 import { Loader2 } from "lucide-react";
 
-const VeilleTechnologique = () => {
+export default function VeilleTechnologique () {
   return (
     <div className="w-full min-h-screen flex flex-col items-center justify-center">
       <div className="text-center p-8 max-w-lg shadow-lg rounded-2xl bg-primary">
@@ -20,4 +20,3 @@ const VeilleTechnologique = () => {
   );
 };
 
-export default VeilleTechnologique;
