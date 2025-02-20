@@ -106,7 +106,7 @@ const projects = [
   },
 ];
 
-export default function Projets() {
+export default function Projects() {
   const [project, setProject] = useState(projects[0]);
 
   const handleSlideChange = (swiper : SwiperType)  => {
