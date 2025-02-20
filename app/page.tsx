@@ -13,7 +13,7 @@ export default function Home() {
       <section id="about" className="bg-primary"><Apropos /></section>
       <section id="experiences" className="bg-secondary"><Experience /></section>
       <section id="competences" className="bg-primary"><Competences/></section>
-      <section id="projets" className="bg-secondary"><Projects /></section>
+      <section id="projets" className="bg-secondary"><Projects/></section>
       <section id="bts-sio" className="bg-primary"><BTS /></section>
       <section id="veille-technologique" className=" bg-secondary"><Veille /></section>
       <section id="contact" className="bg-primary"><Contact /></section>
