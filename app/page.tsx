@@ -4,7 +4,7 @@ import Experience from "../components/Experiences";
 import BTS from "../components/Bts";
 import Veille from "../components/Veille";
 import Competences from "@/components/Competences";
-import Projects from "@/components/Projects";
+import Projects from "../components/Projects";
 
 export default function Home() {
   return (
