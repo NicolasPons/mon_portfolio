@@ -9,7 +9,7 @@ export default function Experience() {
       content: (
         <div>
           <p className="text-white/60 dark:text-neutral-200 text-sm md:text-base font-light mb-4">
-            Bachelor Architecture des logiciels à l'ESGI. Je suis actuellement à la recherche d'une alternance pour cette formation. 
+            Bachelor Architecture des logiciels à l&apos;ESGI. Je suis actuellement à la recherche d&apos;une alternance pour cette formation. 
           </p>
         </div>
       ),
