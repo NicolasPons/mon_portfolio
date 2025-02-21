@@ -9,7 +9,7 @@ export default function Experience() {
       content: (
         <div>
           <p className="text-white/60 dark:text-neutral-200 text-sm md:text-base font-light mb-4">
-            Bachelor Architecture des logiciels à l&apos;ESGI. Je suis actuellement à la recherche d&apos;une alternance pour cette formation. 
+            Bachelor Architecture des logiciels à l&apos;ESGI. Je suis actuellement à la recherche dune alternance pour cette formation. 
           </p>
         </div>
       ),
@@ -47,11 +47,8 @@ export default function Experience() {
           {data.map((item, index) => (
             <div
               key={index}
-              className="relative group border-2 border-black/10 bg-primary dark:bg-neutral-800 rounded-xl p-8 transition-all hover:shadow-md hover:border-accent"
+              className="relative group border-[1px] border-gray-600 bg-primary dark:bg-neutral-800 rounded-xl p-8 transition-all hover:shadow-md hover:border-accent"
             >
-              {/* Circle marker */}
-              <div className="absolute left-[-16px] top-1/2 transform -translate-y-1/2 w-6 h-6 bg-primary rounded-full group-hover:shadow-md group-hover:bg-accent"></div>
-              
               <div className="ml-10 ">
                 {/* Title */}
                 <h2 className="text-white font-semibold text-lg mb-4">{item.title}</h2>
