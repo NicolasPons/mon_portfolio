@@ -12,7 +12,7 @@ export default function Photo() {
                     quality={100} 
                     fill 
                     alt="Photo" 
-                    className="object-contain rounded-full border-[2px] border-accent bg-sec"
+                    className="object-contain rounded-full border-[2px] border-accent bg-primary"
                 />
             </div>
         </div>

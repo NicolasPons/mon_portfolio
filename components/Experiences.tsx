@@ -5,21 +5,21 @@ import React from "react";
 export default function Experience() {
   const data = [
     {
-      title: "2023-2025",
+      title: "2025-2026",
       content: (
         <div>
-          <p className="text-white/60 dark:text-neutral-200 text-sm md:text-base font-light mb-4 ">
-            Etudiant en BTS SIO et alternant à la Compagnie Nationale du Rhône, je développe des compétences en gestion de bases de données et en développement logiciel.
+          <p className="text-white/60 dark:text-neutral-200 text-sm md:text-base font-light mb-4">
+            Bachelor Architecture des logiciels à l'ESGI. Je suis actuellement à la recherche d'une alternance pour cette formation. 
           </p>
         </div>
       ),
     },
     {
-      title: "Early 2023",
+      title: "2023-2025",
       content: (
         <div>
-          <p className="text-white/60 dark:text-neutral-200 text-sm md:text-base font-light mb-4">
-            Participation à divers projets en développement, de la conception à l'intégration des fonctionnalités dans des environnements de production.
+          <p className="text-white/60 dark:text-neutral-200 text-sm md:text-base font-light mb-4 ">
+            Etudiant en BTS SIO option SLAM à ISITECH et alternant à la Compagnie Nationale du Rhône.
           </p>
         </div>
       ),
@@ -29,7 +29,7 @@ export default function Experience() {
       content: (
         <div>
           <p className="text-white/60 dark:text-neutral-200 text-sm md:text-base font-light mb-4">
-            Obtention du baccalauréat Economique et Social, mention AB, avec une passion pour la technologie et les sciences économiques.
+            Obtention du baccalauréat Economique et Social - Mention AB.
           </p>
         </div>
       ),
@@ -37,7 +37,8 @@ export default function Experience() {
   ];
 
   return (
-    <div className="w-full py-16">
+    <div className="w-full py-16 relative">
+
       <h1 className="text-3xl md:text-4xl font-bold text-center text-white mb-16 border-primary">
         Mes expériences
       </h1>
@@ -46,10 +47,10 @@ export default function Experience() {
           {data.map((item, index) => (
             <div
               key={index}
-              className="relative group border-2 border-primary bg-primary dark:bg-neutral-800 rounded-xl p-8 shadow-lg transition-all hover:shadow-md hover:border-accent"
+              className="relative group border-2 border-black/10 bg-primary dark:bg-neutral-800 rounded-xl p-8 transition-all hover:shadow-md hover:border-accent"
             >
               {/* Circle marker */}
-              <div className="absolute left-[-16px] top-1/2 transform -translate-y-1/2 w-6 h-6 bg-primary rounded-full shadow-lg group-hover:bg-accent"></div>
+              <div className="absolute left-[-16px] top-1/2 transform -translate-y-1/2 w-6 h-6 bg-primary rounded-full group-hover:shadow-md group-hover:bg-accent"></div>
               
               <div className="ml-10 ">
                 {/* Title */}
