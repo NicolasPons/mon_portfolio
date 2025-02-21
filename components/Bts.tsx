@@ -6,11 +6,11 @@ export default function BtsSioSection() {
   return (
     <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
       {/* Titre */}
-      <h1 className="text-2xl xl:text-4xl font-bold text-center mb-8">
+      <h1 className="text-2xl xl:text-4xl font-bold text-center mb-8  ">
         BTS SIO - Option SLAM
       </h1>
 
-      <div className="bg-secondary rounded-2xl py-8 border-black">
+      <div className="bg-secondary rounded-2xl py-8 border-gray-600 shadow-lg border-[1px]">
         {/* Contenu principal */}
         <p className="px-4 sm:px-6 lg:px-8 text-base sm:text-lg leading-relaxed mb-6">
           Le <strong>BTS Services Informatiques aux Organisations</strong>{" "}

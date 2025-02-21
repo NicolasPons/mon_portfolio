@@ -12,7 +12,7 @@ export default function Contact() {
       </h1>
       <div className="flex flex-col xl:flex-row gap-[30px] justify-center">
         <div className="xl:w-[54%] order-2 xl:order-none">
-          <form className="flex flex-col gap-6 p-10 bg-[#27272c] rounded-xl justify-center">
+          <form className="flex flex-col gap-6 p-10 bg-secondary shadow-lg rounded-xl justify-center border-gray-600 border-[1px]">
             <h3 className="text-4xl text-accent"> Let&apos;s work together</h3>
             <div className="grid md:grid-cols-2 gap-6">
               <Input type="firstname" placeholder="Prénom" />

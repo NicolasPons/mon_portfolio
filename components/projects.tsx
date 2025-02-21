@@ -150,7 +150,7 @@ export default function Projects() {
                 })}
               </ul>
               <div className="border border-white/20 mb-5"></div>
-              <div className="flex items-center gap-4">
+              <div className="flex items-center gap-4 z-10">
                 <Link href={project.live}>
                   <TooltipProvider delayDuration={100}>
                     <Tooltip>
