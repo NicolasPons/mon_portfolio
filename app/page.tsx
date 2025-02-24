@@ -10,26 +10,26 @@ export default function Home() {
   return (
     <main>
       <div className="relative">
-        <div className="absolute inset-0 h-full w-full z-[-1] bg-primary bg-[radial-gradient(#444363_1px,transparent_1px)] [background-size:16px_16px]" />
-        <section id="about">
+        <div className="absolute inset-0 h-full w-full z-[-1] bg-primary bg-[radial-gradient(#444363_1px,transparent_1px)] [background-size:16px_22px] " />
+        <section id="about" className="border-gray-600 border-b-[1px]">
           <Apropos />
         </section>
 
-        <section id="experiences" className="bg-secondary relative">
-          <div className="absolute inset-0 h-full w-full  bg-[linear-gradient(to_right,#80808012_1px,transparent_1px),linear-gradient(to_bottom,#80808012_1px,transparent_1px)] bg-[size:32px_32px] z-0"></div>
+        <section id="experiences" className="bg-secondary relative border-gray-600 border-b-[1px]">
+          <div className="absolute inset-0 h-full w-full  bg-[linear-gradient(to_right,#80808012_1px,transparent_1px),linear-gradient(to_bottom,#80808012_1px,transparent_1px)] bg-[size:32px_32px] z-0 overflow-visible"></div>
           <Experience />
         </section>
-        <section id="competences">
+        <section id="competences" className="border-gray-600 border-b-[1px]">
           <Competences />
         </section>
-        <section id="projets" className="bg-secondary relative">
+        <section id="projets" className="bg-secondary relative border-gray-600 border-b-[1px]">
         <div className="absolute inset-0 h-full w-full  bg-[linear-gradient(to_right,#80808012_1px,transparent_1px),linear-gradient(to_bottom,#80808012_1px,transparent_1px)] bg-[size:32px_32px]"></div>
           <Projects />
         </section>
-        <section id="bts-sio">
+        <section id="bts-sio" className="border-gray-600 border-b-[1px]">
           <BTS />
         </section>
-        <section id="veille-technologique" className=" bg-secondary relative">
+        <section id="veille-technologique" className=" bg-secondary relative border-gray-600 border-b-[1px]">
         <div className="absolute inset-0 h-full w-full  bg-[linear-gradient(to_right,#80808012_1px,transparent_1px),linear-gradient(to_bottom,#80808012_1px,transparent_1px)] bg-[size:32px_32px] z-0"></div>
           <Veille />
         </section>
@@ -40,3 +40,5 @@ export default function Home() {
     </main>
   );
 }
+
+// absolute -top-10 right-48 w-72 h-72 bg-violet-500 rounded-full filter mix-blend-multiply blur-[100px] z-[-10] opacity-80

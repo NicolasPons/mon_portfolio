@@ -9,7 +9,8 @@ export default function Experience() {
       content: (
         <div>
           <p className="text-white/60 dark:text-neutral-200 text-sm md:text-base font-light mb-4">
-            Bachelor Architecture des logiciels à l&apos;ESGI. Je suis actuellement à la recherche dune alternance pour cette formation. 
+            Bachelor Architecture des logiciels à l&apos;ESGI. Je suis
+            actuellement à la recherche dune alternance pour cette formation.
           </p>
         </div>
       ),
@@ -19,7 +20,8 @@ export default function Experience() {
       content: (
         <div>
           <p className="text-white/60 dark:text-neutral-200 text-sm md:text-base font-light mb-4 ">
-            Etudiant en BTS SIO option SLAM à ISITECH et alternant à la Compagnie Nationale du Rhône.
+            Etudiant en BTS SIO option SLAM à ISITECH et alternant à la
+            Compagnie Nationale du Rhône.
           </p>
         </div>
       ),
@@ -38,7 +40,6 @@ export default function Experience() {
 
   return (
     <div className="w-full py-16 relative">
-
       <h1 className="text-3xl md:text-4xl font-bold text-center text-white mb-16 border-primary">
         Mes expériences
       </h1>
@@ -51,7 +52,9 @@ export default function Experience() {
             >
               <div className="ml-10 ">
                 {/* Title */}
-                <h2 className="text-white font-semibold text-lg mb-4">{item.title}</h2>
+                <h2 className="text-white font-semibold text-lg mb-4">
+                  {item.title}
+                </h2>
                 {/* Content */}
                 {item.content}
               </div>

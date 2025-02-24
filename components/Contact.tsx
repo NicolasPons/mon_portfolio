@@ -24,7 +24,7 @@ export default function Contact() {
               className="h-[200px]"
               placeholder="Type your message here"
             />
-            <Button className="uppercase flex max-w-[225px] py-6 bg-[#27272c]  rounded-full border-[1px] border-accent hover:bg-accent text-accent hover:text-primary">
+            <Button className="uppercase flex max-w-[225px] py-6 bg-secondary rounded-full border-[1px] border-accent hover:bg-accent text-accent hover:text-primary">
               {" "}
               Envoyer votre message
             </Button>
