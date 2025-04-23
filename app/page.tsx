@@ -2,7 +2,7 @@ import Apropos from "../components/About";
 import Contact from "../components/Contact";
 import Experience from "../components/Experiences";
 import BTS from "../components/Bts";
-import Veille from "../components/Veille";
+import VeilleTechnologique from "../components/Veille";
 import Competences from "@/components/Competences";
 import Projects from "../components/projects";
 
@@ -31,7 +31,7 @@ export default function Home() {
         </section>
         <section id="veille-technologique" className=" bg-secondary relative border-gray-600 border-b-[1px]">
         <div className="absolute inset-0 h-full w-full  bg-[linear-gradient(to_right,#80808012_1px,transparent_1px),linear-gradient(to_bottom,#80808012_1px,transparent_1px)] bg-[size:32px_32px] z-0"></div>
-          <Veille />
+          <VeilleTechnologique />
         </section>
         <section id="contact">
           <Contact />
