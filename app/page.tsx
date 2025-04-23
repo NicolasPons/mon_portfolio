@@ -30,7 +30,7 @@ export default function Home() {
           <BTS />
         </section>
         <section id="veille-technologique" className=" bg-secondary relative border-gray-600 border-b-[1px]">
-        <div className="absolute inset-0 h-full w-full  bg-[linear-gradient(to_right,#80808012_1px,transparent_1px),linear-gradient(to_bottom,#80808012_1px,transparent_1px)] bg-[size:32px_32px] z-0"></div>
+        <div className="absolute inset-0 h-full w-full  bg-[linear-gradient(to_right,#80808012_1px,transparent_1px),linear-gradient(to_bottom,#80808012_1px,transparent_1px)] bg-[size:32px_32px]"></div>
           <VeilleTechnologique />
         </section>
         <section id="contact">
