@@ -7,7 +7,7 @@ export default function VeilleTechnologique() {
         style={{
           position: "relative",
           width: "100%",
-          height: "100%",
+          // height: "100%",
           maxHeight:"300px",
           paddingTop: "56.25%",
           paddingBottom: 0,
