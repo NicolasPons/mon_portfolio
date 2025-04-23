@@ -6,7 +6,7 @@ import { Textarea } from "@/components/ui/textarea";
 
 export default function Contact() {
   return (
-    <div className="container mx-auto justify-center items-center">
+    <div className="container mx-auto justify-center items-center shadow-lg">
       <h1 className="text-2xl xl:text-4xl font-bold text-center mb-8">
         Me contacter
       </h1>
