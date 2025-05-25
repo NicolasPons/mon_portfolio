@@ -66,7 +66,7 @@ const projects = [
     ],
     image: "/assets/projets/MedManager_Dashboard.png",
     github: "https://github.com/NicolasPons/AP2-MedManager",
-    live: "https://medmanager.nicolaspons.fr",
+    live: "https://www.medmanager.ponsnicolas.fr/",
   },
   {
     num: "03",
