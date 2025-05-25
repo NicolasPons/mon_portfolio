@@ -66,14 +66,14 @@ const projects = [
     ],
     image: "/assets/projets/MedManager_Dashboard.png",
     github: "https://github.com/NicolasPons/AP2-MedManager",
-    live: "",
+    live: "https://medmanager.nicolaspons.fr",
   },
   {
     num: "03",
-    category: "Projet en alternance",
-    title: "Macro VBA - 1",
+    category: "Projet d'alternance",
+    title: "Calcul de l'IVDE prévisionnel",
     description:
-      "",
+      "Outil destiné aux métiers pour analyser, à posteriori, la valeur de déplacement de l'énergie (IVDE) prévisionnelle, en tenant compte des données de production et en déruire les gains ou pertes.",
     stack: [
       {
         name: "VBA",
@@ -88,10 +88,10 @@ const projects = [
   },
   {
     num: "04",
-    category: "Projet en alternance",
-    title: "Macro VBA - 2",
+    category: "Projet d'alternance",
+    title: "Calcul du RPF et facturation",
     description:
-      "",
+      "Outil déstiné aux métiers pour aider au calcul du Réseau Primaire de Fréquence (RPF) et à la facturation au près de RTE.",
     stack: [
       {
         name: "VBA",
