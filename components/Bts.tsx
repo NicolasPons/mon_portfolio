@@ -6,7 +6,7 @@ export default function BtsSioSection() {
   return (
     <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
       {/* Titre */}
-      <h1 className="text-2xl xl:text-4xl font-bold text-center mb-8  ">
+      <h1 className="text-2xl xl:text-4xl font-extrabold text-center mb-8  ">
         BTS SIO - Option SLAM
       </h1>
 

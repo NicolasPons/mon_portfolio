@@ -1,7 +1,7 @@
 export default function VeilleTechnologique() {
   return (
     <div className="flex flex-col items-center justify-center px-4 py-8 text-white min-h-screen">
-      <h1 className="text-3xl font-bold mb-6 text-center">Veille Technologique</h1>
+      <h1 className="text-3xl font-extrabold mb-6 text-center md:text-4xl ">Veille Technologique</h1>
 
       <div
         style={{

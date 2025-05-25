@@ -130,7 +130,7 @@ export default function Competences() {
     },
   ];
 
-  return (
+  return ( 
     <div className="flex flex-col w-full pt-10 px-4 justify-center items-center">
       <h2 className="text-white font-extrabold text-base md:text-4xl text-center">
         Mes compétences
