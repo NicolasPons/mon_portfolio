@@ -102,6 +102,51 @@ const projects = [
     github: "",
     live: "",
   },
+  {
+    num: "05",
+    category: "Projet personnel",
+    title: "Générateur de mot de passe",
+    description:
+      "Un générateur de mots de passe sécurisé et personnalisable avec visualisation du hachage SHA-256 en temps réel..",
+    stack: [
+      {
+        name: "Next.js",
+      },
+    ],
+    image: "/assets/projets/pwd-gen.png",
+    github: "https://github.com/NicolasPons/pwd-generator",
+    live: "https://pwd-generator-pink.vercel.app/",
+  },
+  {
+    num: "06",
+    category: "Projet personnel",
+    title: "Quiz des capitales",
+    description:
+      "Un quiz interactif pour tester vos connaissances sur les capitales et les drapeaux du monde.",
+    stack: [
+      {
+        name: "Next.js",
+      },
+    ],
+    image: "/assets/projets/geoquiz.png",
+    github: "https://github.com/NicolasPons/GeoQuizGame",
+    live: "https://geo-quiz-game.vercel.app/",
+  },
+    {
+    num: "07",
+    category: "Projet personnel",
+    title: "Portfolio d'un photographe",
+    description:
+      "Portfolio réalisé dans le cadre de la formation HTML & CSS Openclassroom.",
+    stack: [
+      {
+        name: "Next.js",
+      },
+    ],
+    image: "/assets/projets/portfolio-oc.png",
+    github: "https://github.com/NicolasPons/portfolio-photos",
+    live: "https://portfolio-photos-weld.vercel.app/",
+  }
 ];
 
 export default function Projects() {
@@ -152,40 +197,40 @@ export default function Projects() {
               </ul>
               <div className="border border-white/20 mb-5"></div>
               <div className="flex items-center gap-4 z-10">
-                  <TooltipProvider delayDuration={100}>
-                    <Tooltip>
-                      <TooltipTrigger asChild>
-                        {project.num === "01" ? (
-                          <a
-                            href={project.live}
-                            download
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="w-[70px] h-[70px] rounded-full border bg-white/5 flex justify-center items-center group"
-                          >
-                            <Download className="text-white text-3xl group-hover:text-accent" />
-                          </a>
-                        ) : (
-                          // Pour les autres projets → lien live normal
-                          <a
-                            href={project.live}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="w-[70px] h-[70px] rounded-full border bg-white/5 flex justify-center items-center group"
-                          >
-                            <ArrowUpRight className="text-white text-3xl group-hover:text-accent" />
-                          </a>
-                        )}
-                      </TooltipTrigger>
-                      <TooltipContent>
-                        <p>
-                          {project.num === "01"
-                            ? "Télécharger le projet"
-                            : "Live project"}
-                        </p>
-                      </TooltipContent>
-                    </Tooltip>
-                  </TooltipProvider>
+                <TooltipProvider delayDuration={100}>
+                  <Tooltip>
+                    <TooltipTrigger asChild>
+                      {project.num === "01" ? (
+                        <a
+                          href={project.live}
+                          download
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="w-[70px] h-[70px] rounded-full border bg-white/5 flex justify-center items-center group"
+                        >
+                          <Download className="text-white text-3xl group-hover:text-accent" />
+                        </a>
+                      ) : (
+                        // Pour les autres projets → lien live normal
+                        <a
+                          href={project.live}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="w-[70px] h-[70px] rounded-full border bg-white/5 flex justify-center items-center group"
+                        >
+                          <ArrowUpRight className="text-white text-3xl group-hover:text-accent" />
+                        </a>
+                      )}
+                    </TooltipTrigger>
+                    <TooltipContent>
+                      <p>
+                        {project.num === "01"
+                          ? "Télécharger le projet"
+                          : "Live project"}
+                      </p>
+                    </TooltipContent>
+                  </Tooltip>
+                </TooltipProvider>
                 <TooltipProvider delayDuration={100}>
                   <Tooltip>
                     <TooltipTrigger asChild>
