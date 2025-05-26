@@ -140,8 +140,11 @@ const projects = [
       "Portfolio réalisé dans le cadre de la formation HTML & CSS Openclassroom.",
     stack: [
       {
-        name: "Next.js",
+        name: "HTML",
       },
+         {
+        name: "CSS",
+      }
     ],
     image: "/assets/projets/portfolio-oc.png",
     github: "https://github.com/NicolasPons/portfolio-photos",
