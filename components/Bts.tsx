@@ -46,7 +46,7 @@ export default function BtsSioSection() {
           size="lg"
           className="uppercase gap-2 bg-primary py-6 rounded-full border-accent hover:bg-accent text-accent xl:w-[400px] w-80 text-xs xl:text-sm"
         >
-          <a href="/assets/tableau/Grille de compétences - PONS Nicolas.xlsx" download>
+          <a href="/assets/tableau/Grille de compétences - PONS Nicolas.pdf" download>
             Télécharger mon tableau de compétences
           </a>
           <Download className="w-6 h-6 sm:w-5 sm:h-5" />
